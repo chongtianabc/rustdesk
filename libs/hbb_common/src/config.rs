@@ -107,7 +107,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["tcp.me2sky.top"];
-pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RS_PUB_KEY: &str = "y+P949WO2Y7ihXA08RcGnzouBNQ+EUXb6zCRRNC12h8=";
 
 pub const RENDEZVOUS_PORT: i32 = 31116;
 pub const RELAY_PORT: i32 = 31117;
