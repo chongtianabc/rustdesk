@@ -5,7 +5,7 @@
   <a href="../README.md#file-structure">Structură</a> •
   <a href="../README.md#snapshot">Capturi</a><br>
   [<a href="README-UA.md">Українська</a>] | [<a href="README-CS.md">česky</a>] | [<a href="README-ZH.md">中文</a>] | [<a href="README-HU.md">Magyar</a>] | [<a href="README-ES.md">Español</a>] | [<a href="README-FA.md">فارسی</a>] | [<a href="README-FR.md">Français</a>] | [<a href="README-DE.md">Deutsch</a>] | [<a href="README-PL.md">Polski</a>] | [<a href="README-ID.md">Indonesian</a>] | [<a href="README-FI.md">Suomi</a>] | [<a href="README-ML.md">മലയാളം</a>] | [<a href="README-JP.md">日本語</a>] | [<a href="README-NL.md">Nederlands</a>] | [<a href="README-IT.md">Italiano</a>] | [<a href="README-RU.md">Русский</a>] | [<a href="README-PTBR.md">Português (Brasil)</a>] | [<a href="README-EO.md">Esperanto</a>] | [<a href="README-KR.md">한국어</a>] | [<a href="README-AR.md">العربي</a>] | [<a href="README-VN.md">Tiếng Việt</a>] | [<a href="README-DA.md">Dansk</a>] | [<a href="README-GR.md">Ελληνικά</a>] | [<a href="README-TR.md">Türkçe</a>] | [<a href="README-NO.md">Norsk</a>] | [<a href="README-RO.md">Română</a>]<br>
-  <b>Avem nevoie de ajutorul tău pentru a traduce acest README, <a href="https://github.com/rustdesk/rustdesk/tree/master/src/lang">RustDesk UI</a> și <a href="https://github.com/rustdesk/doc.rustdesk.com">RustDesk Doc</a> în limba ta maternă</b>
+  <b>Avem nevoie de ajutorul tău pentru a traduce acest README, <a href="https://github.com/rustdesk/rustdesk/tree/master/src/lang">RustDesk UI</a> și <a href="https://github.com/rustdesk/doc.clouddesktop.com">RustDesk Doc</a> în limba ta maternă</b>
 </p>
 
 > [!Atenție]
@@ -15,9 +15,9 @@
 
 Conversați cu noi: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/rustdesk) | [Reddit](https://www.reddit.com/r/rustdesk) | [YouTube](https://www.youtube.com/@rustdesk)
 
-[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Advanced%20Features-blue)](https://rustdesk.com/pricing.html)
+[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Advanced%20Features-blue)](https://clouddesktop.com/pricing.html)
 
-Încă o soluție de desktop la distanță scrisă în Rust. Funcționează imediat, fără configurare necesară. Ai control total asupra datelor tale, fără probleme de securitate. Poți folosi serverul nostru de rendezvous/relay, [să-ți configurezi propriul server](https://rustdesk.com/server) sau [să scrii propriul server de rendezvous/relay](https://github.com/rustdesk/rustdesk-server-demo).
+Încă o soluție de desktop la distanță scrisă în Rust. Funcționează imediat, fără configurare necesară. Ai control total asupra datelor tale, fără probleme de securitate. Poți folosi serverul nostru de rendezvous/relay, [să-ți configurezi propriul server](https://clouddesktop.com/server) sau [să scrii propriul server de rendezvous/relay](https://github.com/rustdesk/rustdesk-server-demo).
 
 ![imagine](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
@@ -57,7 +57,7 @@ Te rugăm să descarci singur librăria dinamică Sciter.
 
 - rulează `cargo run`
 
-## [Construire](https://rustdesk.com/docs/en/dev/build/)
+## [Construire](https://clouddesktop.com/docs/en/dev/build/)
 
 ## Cum se construiește pe Linux
 

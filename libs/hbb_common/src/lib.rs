@@ -431,7 +431,7 @@ pub const VER_TYPE_RUSTDESK_CLIENT: &str = "rustdesk-client";
 pub const VER_TYPE_RUSTDESK_SERVER: &str = "rustdesk-server";
 
 pub fn version_check_request(typ: String) -> (VersionCheckRequest, String) {
-    const URL: &str = "https://api.rustdesk.com/version/latest";
+    const URL: &str = "https://api.clouddesktop.com/version/latest";
 
     use sysinfo::System;
     let system = System::new();
@@ -472,7 +472,7 @@ mod test {
 
     #[test]
     fn test_mangle() {
-        let addr = SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(192, 168, 16, 32), 21116));
+        let addr = SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(192, 168, 16, 32), 31116));
         assert_eq!(addr, AddrMangle::decode(&AddrMangle::encode(addr)));
 
         let addr = "[2001:db8::1]:8080".parse::<SocketAddr>().unwrap();

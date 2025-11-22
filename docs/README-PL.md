@@ -11,9 +11,9 @@
 
 Porozmawiaj z nami na: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/rustdesk) | [Reddit](https://www.reddit.com/r/rustdesk) | [YouTube](https://www.youtube.com/@rustdesk)
 
-[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Zaawansowane%20Funkcje-blue)](https://rustdesk.com/pricing.html)
+[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Zaawansowane%20Funkcje-blue)](https://clouddesktop.com/pricing.html)
 
-Kolejny program do zdalnego pulpitu, napisany w Rust. Działa od samego początku, nie wymaga konfiguracji. Masz pełną kontrolę nad swoimi danymi, bez obaw o bezpieczeństwo. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://rustdesk.com/server), lub [napisać własny serwer](https://github.com/rustdesk/rustdesk-server-demo).
+Kolejny program do zdalnego pulpitu, napisany w Rust. Działa od samego początku, nie wymaga konfiguracji. Masz pełną kontrolę nad swoimi danymi, bez obaw o bezpieczeństwo. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://clouddesktop.com/server), lub [napisać własny serwer](https://github.com/rustdesk/rustdesk-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png) 
 

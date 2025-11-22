@@ -911,7 +911,7 @@ pub fn check_software_update() {
 }
 
 // No need to check `danger_accept_invalid_cert` for now.
-// Because the url is always `https://api.rustdesk.com/version/latest`.
+// Because the url is always `https://api.clouddesktop.com/version/latest`.
 #[tokio::main(flavor = "current_thread")]
 pub async fn do_check_software_update() -> hbb_common::ResultType<()> {
     let (request, url) =
@@ -1015,10 +1015,10 @@ pub fn get_api_server(api: String, custom: String) -> String {
         res.pop();
     }
     if res.starts_with("https")
-        && res.ends_with(":21114")
-        && get_builtin_option(keys::OPTION_ALLOW_HTTPS_21114) != "Y"
+        && res.ends_with(":31114")
+        && get_builtin_option(keys::OPTION_ALLOW_HTTPS_31114) != "Y"
     {
-        return res.replace(":21114", "");
+        return res.replace(":31114", "");
     }
     res
 }
@@ -1046,12 +1046,12 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://admin.rustdesk.com".to_owned()
+    "https://admin.clouddesktop.com".to_owned()
 }
 
 #[inline]
 pub fn is_public(url: &str) -> bool {
-    url.contains("rustdesk.com")
+    url.contains("clouddesktop.com")
 }
 
 pub fn get_udp_punch_enabled() -> bool {
@@ -2034,15 +2034,15 @@ async fn stun_ipv4_test(stun_server: &str) -> ResultType<(SocketAddr, String)> {
 }
 
 static STUNS_V4: [&str; 3] = [
-    "stun.l.google.com:19302",
-    "stun.cloudflare.com:3478",
-    "stun.nextcloud.com:3478",
+    "clouddesktop.com:19302",
+    "clouddesktop.com:3478",
+    "clouddesktop.com:3478",
 ];
 
 static STUNS_V6: [&str; 3] = [
-    "stun.l.google.com:19302",
-    "stun.cloudflare.com:3478",
-    "stun.nextcloud.com:3478",
+    "clouddesktop.com:19302",
+    "clouddesktop.com:3478",
+    "clouddesktop.com:3478",
 ];
 
 pub async fn test_nat_ipv4() -> ResultType<(SocketAddr, String)> {

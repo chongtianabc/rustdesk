@@ -86,8 +86,8 @@ lazy_static::lazy_static! {
     pub static ref APP_HOME_DIR: RwLock<String> = Default::default();
 }
 
-pub const LINK_DOCS_HOME: &str = "https://rustdesk.com/docs/en/";
-pub const LINK_DOCS_X11_REQUIRED: &str = "https://rustdesk.com/docs/en/manual/linux/#x11-required";
+pub const LINK_DOCS_HOME: &str = "https://clouddesktop.com/docs/en/";
+pub const LINK_DOCS_X11_REQUIRED: &str = "https://clouddesktop.com/docs/en/manual/linux/#x11-required";
 pub const LINK_HEADLESS_LINUX_SUPPORT: &str =
     "https://github.com/rustdesk/rustdesk/wiki/Headless-Linux-Support";
 
@@ -106,13 +106,13 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.com"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["tcp.me2sky.top"];
 pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
-pub const WS_RENDEZVOUS_PORT: i32 = 21118;
-pub const WS_RELAY_PORT: i32 = 21119;
+pub const RENDEZVOUS_PORT: i32 = 31116;
+pub const RELAY_PORT: i32 = 31117;
+pub const WS_RENDEZVOUS_PORT: i32 = 31118;
+pub const WS_RELAY_PORT: i32 = 31119;
 
 macro_rules! serde_field_string {
     ($default_func:ident, $de_func:ident, $default_expr:expr) => {
@@ -2579,7 +2579,7 @@ pub mod keys {
     pub const OPTION_ONE_WAY_CLIPBOARD_REDIRECTION: &str = "one-way-clipboard-redirection";
     pub const OPTION_ALLOW_LOGON_SCREEN_PASSWORD: &str = "allow-logon-screen-password";
     pub const OPTION_ONE_WAY_FILE_TRANSFER: &str = "one-way-file-transfer";
-    pub const OPTION_ALLOW_HTTPS_21114: &str = "allow-https-21114";
+    pub const OPTION_ALLOW_HTTPS_31114: &str = "allow-https-31114";
     pub const OPTION_ALLOW_HOSTNAME_AS_ID: &str = "allow-hostname-as-id";
     pub const OPTION_HIDE_POWERED_BY_ME: &str = "hide-powered-by-me";
     pub const OPTION_MAIN_WINDOW_ALWAYS_ON_TOP: &str = "main-window-always-on-top";
@@ -2767,7 +2767,7 @@ pub mod keys {
         OPTION_ONE_WAY_CLIPBOARD_REDIRECTION,
         OPTION_ALLOW_LOGON_SCREEN_PASSWORD,
         OPTION_ONE_WAY_FILE_TRANSFER,
-        OPTION_ALLOW_HTTPS_21114,
+        OPTION_ALLOW_HTTPS_31114,
         OPTION_ALLOW_HOSTNAME_AS_ID,
         OPTION_REGISTER_DEVICE,
         OPTION_HIDE_POWERED_BY_ME,

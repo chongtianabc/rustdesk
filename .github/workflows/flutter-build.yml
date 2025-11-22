@@ -2010,7 +2010,7 @@ jobs:
           cd $(dirname $(dirname $(which flutter)))
           [[ "3.24.5" == ${{env.FLUTTER_VERSION}} ]] && git apply ${{ github.workspace }}/.github/patches/flutter_3.24.4_dropdown_menu_enableFilter.diff
 
-      # https://rustdesk.com/docs/en/dev/build/web/
+      # https://clouddesktop.com/docs/en/dev/build/web/
       - name: Build web
         shell: bash
         run: |
@@ -2026,7 +2026,7 @@ jobs:
           popd
 
           pushd flutter/web
-          wget https://github.com/rustdesk/doc.rustdesk.com/releases/download/console/web_deps.tar.gz
+          wget https://github.com/rustdesk/doc.clouddesktop.com/releases/download/console/web_deps.tar.gz
           tar xzf web_deps.tar.gz
           popd
 

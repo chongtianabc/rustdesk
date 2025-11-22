@@ -6,14 +6,14 @@
   <a href="#file-structure">Struktur</a> •
   <a href="#snapshot">Snapshot</a><br>
   [<a href="docs/README-UA.md">Українська</a>] | [<a href="docs/README-CS.md">česky</a>] | [<a href="docs/README-ZH.md">中文</a>] | [<a href="docs/README-HU.md">Magyar</a>] | [<a href="docs/README-ES.md">Español</a>] | [<a href="docs/README-FA.md">فارسی</a>] | [<a href="docs/README-FR.md">Français</a>] | [<a href="docs/README-DE.md">Deutsch</a>] | [<a href="docs/README-PL.md">Polski</a>] | [<a href="docs/README-ID.md">Indonesian</a>] | [<a href="docs/README-FI.md">Suomi</a>] | [<a href="docs/README-ML.md">മലയാളം</a>] | [<a href="docs/README-JP.md">日本語</a>] | [<a href="docs/README-NL.md">Nederlands</a>] | [<a href="docs/README-IT.md">Italiano</a>] | [<a href="docs/README-RU.md">Русский</a>] | [<a href="docs/README-PTBR.md">Português (Brasil)</a>] | [<a href="docs/README-EO.md">Esperanto</a>] | [<a href="docs/README-KR.md">한국어</a>] | [<a href="docs/README-AR.md">العربي</a>] | [<a href="docs/README-VN.md">Tiếng Việt</a>] | [<a href="docs/README-DA.md">Dansk</a>] | [<a href="docs/README-GR.md">Ελληνικά</a>] | [<a href="docs/README-TR.md">Türkçe</a>] | [<a href="docs/README-NO.md">Norsk</a><br>
-  <b>Vi trenger din hjelp til å oversette denne README-en, <a href="https://github.com/rustdesk/rustdesk/tree/master/src/lang">RustDesk UI</a> og <a href="https://github.com/rustdesk/doc.rustdesk.com">RustDesk Doc</a> tid ditt morsmål</b>
+  <b>Vi trenger din hjelp til å oversette denne README-en, <a href="https://github.com/rustdesk/rustdesk/tree/master/src/lang">RustDesk UI</a> og <a href="https://github.com/rustdesk/doc.clouddesktop.com">RustDesk Doc</a> tid ditt morsmål</b>
 </p>
 
 Snakk med oss: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/rustdesk) | [Reddit](https://www.reddit.com/r/rustdesk) | [YouTube](https://www.youtube.com/@rustdesk)
 
-[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Avanserte%20Funksjoner-blue)](https://rustdesk.com/pricing.html)
+[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-Avanserte%20Funksjoner-blue)](https://clouddesktop.com/pricing.html)
 
-Enda en annen fjernstyrt desktop programvare, skrevet i Rust. Virker rett ut av pakken, ingen konfigurasjon nødvendig. Du har full kontroll over din data, uten beskymring for sikkerhet. Du kan bruke vår rendezvous_mediator/relay server, [sett opp din egen](https://rustdesk.com/server), eller [skriv din egen rendezvous_mediator/relay server](https://github.com/rustdesk/rustdesk-server-demo).
+Enda en annen fjernstyrt desktop programvare, skrevet i Rust. Virker rett ut av pakken, ingen konfigurasjon nødvendig. Du har full kontroll over din data, uten beskymring for sikkerhet. Du kan bruke vår rendezvous_mediator/relay server, [sett opp din egen](https://clouddesktop.com/server), eller [skriv din egen rendezvous_mediator/relay server](https://github.com/rustdesk/rustdesk-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
@@ -53,7 +53,7 @@ Venligst last ned Sciters dynamiske bibliotek selv.
 
 - Kjør `cargo run`
 
-## [Bygg](https://rustdesk.com/docs/en/dev/build/)
+## [Bygg](https://clouddesktop.com/docs/en/dev/build/)
 
 ## Hvordan Bygge til Linux
 

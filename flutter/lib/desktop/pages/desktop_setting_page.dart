@@ -1273,7 +1273,7 @@ class _SafetyState extends State<_Safety> with AutomaticKeepAliveClientMixin {
                           r'^([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])$')),
                     ],
                     decoration: const InputDecoration(
-                      hintText: '21118',
+                      hintText: '31118',
                       contentPadding:
                           EdgeInsets.symmetric(vertical: 12, horizontal: 12),
                     ),
@@ -2307,7 +2307,7 @@ class _AboutState extends State<_About> {
                         .marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com/privacy.html');
+                    launchUrlString('https://clouddesktop.com/privacy.html');
                   },
                   child: Text(
                     translate('Privacy Statement'),
@@ -2315,7 +2315,7 @@ class _AboutState extends State<_About> {
                   ).marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com');
+                    launchUrlString('https://clouddesktop.com');
                   },
                   child: Text(
                     translate('Website'),

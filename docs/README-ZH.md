@@ -14,10 +14,10 @@
 
 与我们交流: [知乎](https://www.zhihu.com/people/rustdesk) | [Discord](https://discord.gg/nDceKgxnkV) | [Reddit](https://www.reddit.com/r/rustdesk) | [YouTube](https://www.youtube.com/@rustdesk)
 
-[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD-blue)](https://rustdesk.com/pricing.html)
+[![RustDesk Server Pro](https://img.shields.io/badge/RustDesk%20Server%20Pro-%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD-blue)](https://clouddesktop.com/pricing.html)
 
 远程桌面软件，开箱即用，无需任何配置。您完全掌控数据，不用担心安全问题。您可以使用我们的注册/中继服务器，
-或者[自己设置](https://rustdesk.com/server)，
+或者[自己设置](https://clouddesktop.com/server)，
 亦或者[开发您的版本](https://github.com/rustdesk/rustdesk-server-demo)。
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
@@ -55,7 +55,7 @@ RustDesk 期待各位的贡献. 如何参与开发? 详情请看 [CONTRIBUTING-Z
 
 - 运行 `cargo run`
 
-## [构建](https://rustdesk.com/docs/en/dev/build/)
+## [构建](https://clouddesktop.com/docs/en/dev/build/)
 
 ## 在 Linux 上编译
 
